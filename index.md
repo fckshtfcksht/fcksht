@@ -3,8 +3,8 @@ layout: base.njk
 title: My Digital Garden
 ---
 
-# Welcome to My Digital Garden
+# fcksht
 
-- [Fortune Teller](/fortune/)
-- [Visual Work](/work/)
-- [External Links](/links/)
+- [fortune teller](/fortune/)
+- [archive](/work/)
+- [curiosity](/links/)
