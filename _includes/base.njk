@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>{{ title }}</title>
+
+  <style>
+
+    body { font-family: system-ui; max-width: 800px; margin: 0 auto; padding: 2rem; }
+
+    nav { margin-bottom: 2rem; }
+
+    button { padding:1rem; font-size:1.2rem; cursor:pointer; }
+
+  </style>
+
+</head>
+
+<body>
+
+  <nav>
+
+    <a href="/">Home</a> | <a href="/fortune/">Fortune Teller</a>
+
+  </nav>
+
+  {{ content | safe }}
+
+</body>
+
+</html>
+
