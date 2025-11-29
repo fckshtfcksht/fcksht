@@ -1,6 +1,10 @@
 ---
 layout: base.njk
-title: Links
+title: My Digital Garden
 ---
 
-# Curiosity Links
+# fcksht
+
+- [fortune teller](./fortune/)
+- [archive](./work/)
+- [curiosity](./links/)
