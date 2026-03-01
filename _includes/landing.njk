@@ -3,13 +3,18 @@
 <head><title>fcksht</title></head>
 <body>
   <h1>fcksht</h1>
-  <h2>SHOP</h2>
+  
+  <h2>shop</h2>
   <ul>
-    <li><a href="/shop/eye-of-god">Eye of God</a></li>
+  {%- for item in collections.shop %}
+    <li><a href="{{ item.url }}">{{ item.data.title }}</a> {{ item.data.price }}</li>
+  {%- endfor %}
   </ul>
-  <h2>GARDEN</h2>
+  
   <ul>
-    <li><a href="/garden/fortune">Fortune Teller</a></li>
+    <li><a href="/fortune/">fortune teller</a></li>
+    <li><a href="/work/">work</a></li>
+    <li><a href="/links/">links</a></li>
   </ul>
 </body>
 </html>
